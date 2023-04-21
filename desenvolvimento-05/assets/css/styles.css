@@ -51,9 +51,16 @@ ul {
     color: var(--vishal-3)
 }
 
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .destaques {
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
 a {
