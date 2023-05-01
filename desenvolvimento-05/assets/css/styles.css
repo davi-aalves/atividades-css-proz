@@ -44,7 +44,7 @@ header {
 
 ul {
     display: flex;
-    justify-content: cen;
+    justify-content: center;
     align-items:center;
     gap: 4rem;
     list-style: none;
@@ -56,6 +56,7 @@ main {
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
+  width: 60vw;
 }
 
 .destaques {
@@ -92,7 +93,7 @@ footer {
     justify-content: center;
     width: 100%;
     height: 100px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
 }
