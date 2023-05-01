@@ -1,55 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
 * {
-    font-family: 'Maven Pro', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Maven Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: #6C3C9D;
 }
 
 header {
-    background-color: lightgray;
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
-}
-
-nav {
-    /* background-color: #EF7D19; */
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
 }
 
 ul {
-    display: flex;
-    height: 100%;
-    align-items: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
 
 nav ul li {
-    padding-left: 16px;
-    list-style-type: none;
+  padding-left: 16px;
+  list-style-type: none;
 }
 
 main {
-    background-color: aqua;
-    color: #FFFFFF;
-    padding-top: 16px;
-    padding-left: 16px;
-    width: 900px;
-    margin: 0 auto;
+  color: #ffffff;
+  padding-top: 16px;
+  padding-left: 16px;
+  width: 800px;
+  margin: 0 auto;
 }
 
+h1 {
+    font-size: 3rem;
+}
 
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
 
 section {
-    display: flex;
+  display: flex;
 }
 
 section div {
-    background-image: url(./img/bg_laranja.jpg);
-    padding: 12px;
-    height: 200px;
-    width: 300px;
-    border-radius: 16px;
+  background-image: url(../img/bg_laranja.jpg);
+  padding: 24px;
+  height: 200px;
+  width: 300px;
+  border-radius: 16px;
 }
 
 section div:first-of-type {
-    margin-right: 16px;
+  margin-right: 16px;
 }
